@@ -1,0 +1,4 @@
+build/EBOOT.PBP
+build/CMakeCache.txt
+build/CMakeFiles/*
+CMakeLists.txt
