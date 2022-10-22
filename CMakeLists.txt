@@ -26,6 +26,7 @@ if(PSP)
         png
         z
         freetype
+		xmp
     )
     create_pbp_file(
         TARGET ${PROJECT_NAME}

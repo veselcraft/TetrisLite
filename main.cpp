@@ -104,10 +104,12 @@ int main(int argc, char *argv[])
 
     // Init game itself
 
+    srand(time(NULL)); // crutch to fix rand func
+
     GameData tetris;
 
-    int tick = 0; // max 60
-    int rate = 20; // per second
+    int tick = 0;   // max 60
+    int rate = 20;  // per second
 
     while (running) {
         if (SDL_PollEvent(&event)) {
